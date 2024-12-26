@@ -14,7 +14,8 @@ namespace _20241226001CS
             //設定DennisCar的屬性值.
             DennisCar.Id = 1;
             DennisCar.Owner = "Dennis";
-            //類堆..所有屬性都要設.
+            DennisCar.Name = "Hello";
+            //類堆..所有屬性都要設.s
 
             //最後,叫用DennisCar的方法PrintAllAttrib( )印出所有屬性參數.
             DennisCar.PrintAllAttrib();

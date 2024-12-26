@@ -12,12 +12,14 @@ namespace _20241226001CS
         public int Id { get; set; }  //車子的ID,車牌
         public string Owner { get; set; }  //車子主人的名字
         public string Description { get; set; } //關於這台車描述
+        public string Name;
+
         public double Price {  get; set; }  
         public string Brand { get; set; } //品牌
         public string Model { get; set; }  //型號
 
         private double _tax; //關稅
-        public double Tax
+        public double tax
         {
             get { return this._tax; }
             set { this._tax = value; }
